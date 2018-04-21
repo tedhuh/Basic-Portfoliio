@@ -1,0 +1,104 @@
+html{
+    width: 960px;
+}
+
+body{
+   background: #ffffff
+}
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    border: #cccccc;
+}
+
+
+#ABC{
+    color: grey;
+    position: relative;
+    left: 770px;
+    bottom: 50px;
+}
+
+#header1{
+    color: white;
+    background: #4aaaa5;
+    width: 140px;
+    padding: 20px;
+}
+
+
+
+#Portfolio{
+    color: #4aaaa5;
+}
+
+#basketball-img{
+    width: 350px;
+    height: 350px;   
+}
+
+#bball-text{
+    color: white;
+    background: #4aaaa5;
+    width: 328px;
+    position: relative;
+    bottom: 80px;
+    left: 5px;  
+    padding: 10px;
+}
+
+#dodgers-img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 420px;
+    left: 400px;
+}
+
+#dodgers-text{
+    color: white;
+    background: #4aaaa5;
+    width: 328px;
+    position: relative;
+    bottom: 500px;
+    left: 405px; 
+    padding: 10px;
+}
+
+#travel-img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    bottom: 350px;
+
+}
+#travel-text{
+    color: white;
+    background: #4aaaa5;
+    width: 328px;
+    padding: 10px;
+    position: relative;
+    bottom: 430px;
+    margin-left: 5px;
+}
+
+#beach-img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 770px;
+    left: 400px;
+}
+
+#beach-text{
+    color: white;
+    background: #4aaaa5;
+    width: 328px;
+    padding: 10px;
+    position: relative;
+    bottom: 854px;
+    left: 405px;
+
+
+}
