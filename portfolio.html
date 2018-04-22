@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Index</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen"href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
-<body>  
-    <header>
-        <H1 id="header1">Ted Huh</H1>
-        <p id="ABC">About Portfolio Contact</p>
+
+<body>
+    <header class="header">
+        <h1 id="id">Ted Huh</h1>
+        <div id="abc">
+            <a href="index.html">About |</a>
+            <a href="contact.html">Contact | </a>
+            <a href="portfolio.html">Profile</a>
+        </div>
     </header>
+    <h2>Portfolio</h2>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img id="basketball-img" src="assets/images/BBALL.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <img id="travel-img" src="assets/images/travel.jpg">
+                </div>
+                <div id="basketball-text">basketball</div>
+                <div id="travel-text">travel</div>
 
-    <hr>        
-    <section id="Portfolio">
-        <h2>Portfolio</h2>
-        <image id="basketball"></image>
-        <img id ="basketball-img"src="assets/images/BBALL.jpg">
-        <p id="bball-text">Basketball</p>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-6">
+                    <img id="dodgers-img" src="assets/images/LA.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <img id="beach-img" src="assets/images/beach.jpeg">
+                </div>
+                <div id="beach-text">beach</div>
+                <div id="dodgers-text">dodgers</div>
 
-        <image id="dodgers"></image>
-        <img id="dodgers-img"src="assets/images/LA.jpg">
-        <p id="dodgers-text">Dodgers</p>
-
-
-        <image id="dodgers"></image>
-        <img id="travel-img"src="assets/images/travel.jpg">
-        <p id="travel-text">Traveling</p>
-
-
-        <image id="beach"></image>
-        <img id="beach-img"src="assets/images/beach.jpeg">
-        <p id="beach-text">Beach Day!</p>
-
-
-
-
+            </div>
     </section>
-    
+    <div class="footer">
+        <p>Copyright</p>
+    </div>
+
 </body>
+
 </html>

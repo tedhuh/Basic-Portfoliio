@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contacts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
+
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>About Portfolio Contact</p>
+    <header class="header">
+        <h1 id="id">Ted Huh</h1>
+        <div id="abc">
+            <a href="index.html">About |</a>
+            <a href="contact.html">Contact | </a>
+            <a href="portfolio.html">Profile</a>
+
     </header>
-    <section>
-        <div class="container">
-            <form action="action_page.php">
+    <h1>Contact</h1>
 
-            <label for="Name">Name</label>
-            <input type="text" id="name" name="Name" placeholder="John Smith">
 
-            <label for="Email">Email</label>
-            <input type="text" id="name" placeholder="example@gmail.com">
+    <div clss="container">
+        <hr>
+        <form action="/action_page.php">
+            <div>
+                <label for="fname">Name</label>
+            </div>
+            <div>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
 
-            <label for="Message">Message</label>
-            <textarea id="message">
-        
+
+            <div>
+                <label for="lname">E-Mail</label>
+            <div>
+                <input type="text" id="email" name="lastname" placeholder="Email..">
+            </div>
+
+            <div>
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
 
             <input type="submit" value="Submit">
-            </form>
-        
-        
-        
-        
+        </form>
+
+        <div class="footer">    
+            <p>Copyright</p>
+    </div>    
     </div>
-</section>
-    
+
 </body>
+
 </html>
