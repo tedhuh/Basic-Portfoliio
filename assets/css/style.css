@@ -20,8 +20,15 @@ header{
 }
 
 section{
-    background: #ffffff
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    
 }
+
+
 
 .container{
     color: #ffffff;
@@ -38,7 +45,7 @@ section{
     background: #666666;
     width: 75%;
     text-align: center;
-    font-size: 10px
+    font-size: 10px;
 }
 
 
@@ -65,11 +72,22 @@ h2{
     background: #ffffff;
     position: relative;
     top: 20px;
+    border-bottom: #cccccc solid;
 }
 
 .row{
     position: relative;
     top: 80px;
+}
+#tedhuh{
+    padding: 3px;
+    font-size: 40px;
+    background: #4aaaaf;
+    color: #ffffff;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    height: 100%;
 }
 
 #linkedin-img{
@@ -106,8 +124,8 @@ h2{
     color: #ffffff;
     background: #4aaaa5;
     position: absolute;
-    left: 0px;
-    top: 160px;
+    left: 159px;
+    top: 300px;
     width: 200px;
     height: 30px
 }
@@ -122,8 +140,8 @@ h2{
     color: #ffffff;
     background: #4aaaa5;
     position: absolute;
-    left: 280px;
-    top: 160px;
+    left: 180px;
+    bottom: 60px;
     width: 200px;
     height: 30px
 }
@@ -141,8 +159,8 @@ h2{
     color: #ffffff;
     background: #4aaaa5;
     position: absolute;
-    left: 280px;
-    top: 340px;
+    bottom: 80px;
+    right: 639px;
     width: 200px;
     height: 30px
 }
@@ -151,18 +169,20 @@ h2{
     width: 200px;
     height: 200px;
     position:relative;
-    top: 20px;
+    top: 210px;
+    right: 685px;
 }
 
 #beach-text{
     color: #ffffff;
     background: #4aaaa5;
     position: absolute;
-    left: 0px;
-    top: 340px;
+    bottom: 70px;
+    left: 159px;
     width: 200px;
     height: 30px
 }
+
 
 #input[type=text], select, textarea {
         width: 100%;
@@ -185,13 +205,192 @@ input[type=submit] {
 }
 
 #abc{
-    position: absolute;
-    right: 0px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
     background: #ffffff
 
     /* left: 700px; */
     /* bottom: 60px; */
+}
+
+@media only screen and (max-width: 640px) {
+	body {
+		font-size: 10px;
+    }
+    .abc{
+        position: relative;
+        left: 400px;
+    }
+    header{
+        width: 600%
+    }
+
+    .footer{
+        margin-bottom: 5%;
+    }
+    #tedhuh{
+        width: 100%;
+    }
+    #linkedin-img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 768px) {
+	body {
+        font-size: 12px;
+    }
+
+    #linkedin-img{
+        height: 280px;
+        width: 300px;
+        position: relative;
+        left: 20px;
+        margin-bottom: 20px;
+    }
+    #bio-p{
+        font-size: 14px;
+        position: relative;
+        bottom: 300px;
+        left: 350px;
+        margin-bottom: 10px;
+    }
+    #abc{
+        position: relative;
+        left: 600px;
+        top: 300px;   
+    }
+    .footer{
+        position: relative;
+        right: 80px;
+        padding: 10px;
+        border-top: solid #4aaaaf;
+        bottom: 90px;
+    }
+    #tedhuh{
+        width: 20%;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 980px) {
+	body {
+		font-size: 20px;
+    }
+
+    section{
+        width: 60%;
+        margin-left: 10%;
+    }
+    
+    #abc{
+        position: relative;
+        left: 700px;
+        top: -70px;
+    }
+    #tedhuh{
+    width: 20%;
+    }
+
+#bio-p{
+    width: 200px;
+}
+#section-p{
+    width: 200px
+}
+    .footer{
+        width: 100%;
+        border-top: #4aaaa5 solid;
+    }
+    #input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;    
+        margin: auto;
+}
+#basketball-img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: -190px;
     
 }
+
+#basketball-text{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    width: 150px;
+    height: 40px;
+}
+
+#travel-img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: -230px;
+    bottom: -10px;
+    
+}
+
+#travel-text{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    left: 200px;
+    top: -90px;
+    width: 150px;
+    height: 30px
+
+}
+
+
+#dodgers-img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 190px;
+    right: 160px;
+}
+
+#dodgers-text{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    left: 220px;
+    bottom: -90px;
+    width: 150px;
+    height: 30px;
+}
+
+#beach-img{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    top: 10px;
+    right: 320px;
+}
+
+#beach-text{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    left: 215px;
+    bottom: 120px;
+    width: 150px;
+    height: 30px;
+}
+}
+
+
+
+
 
 
